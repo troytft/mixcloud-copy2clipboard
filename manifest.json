@@ -1,0 +1,25 @@
+{
+    "name": "mixcloud-copy2clipboard",
+    "version": "1.0.0",
+    "description": "Allows to copy current track name to clipboard",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "background.js"
+            ],
+            "matches": [
+                "https://mixcloud.com/*",
+                "https://www.mixcloud.com/*"
+            ]
+        }
+    ]
+}
