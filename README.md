@@ -6,4 +6,4 @@ Chrome extension for mixcloud.com, allows you to copy current track name to clip
 
 ### Installation
 
-Extensions -> Load unpacked
+https://chrome.google.com/webstore/detail/mghjpbenegghiedeckghcbiinlgmpjfh
